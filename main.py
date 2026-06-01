@@ -95,7 +95,7 @@ def get_risk_level(probability: float) -> str:
 
 # ── Endpoints ─────────────────────────────────────────────────────────────────
 
-@app.get("/")
+@app.get("/") 
 def root():
     return {
         "message"         : "Loan Risk Prediction API is running!",

@@ -1,0 +1,35 @@
+{
+  "numeric": [
+    "Age",
+    "Income",
+    "LoanAmount",
+    "CreditScore",
+    "YearsExperience"
+  ],
+  "categorical": [
+    "Gender",
+    "Education",
+    "City",
+    "EmploymentType"
+  ],
+  "processed": [
+    "num__Age",
+    "num__Income",
+    "num__LoanAmount",
+    "num__CreditScore",
+    "num__YearsExperience",
+    "categorical__Gender_Female",
+    "categorical__Gender_Male",
+    "categorical__Education_Bachelors",
+    "categorical__Education_High School",
+    "categorical__Education_Masters",
+    "categorical__Education_PhD",
+    "categorical__City_Chicago",
+    "categorical__City_Houston",
+    "categorical__City_New York",
+    "categorical__City_San Francisco",
+    "categorical__EmploymentType_Salaried",
+    "categorical__EmploymentType_Self-Employed",
+    "categorical__EmploymentType_Unemployed"
+  ]
+}
